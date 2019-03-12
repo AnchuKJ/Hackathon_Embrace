@@ -1,0 +1,15 @@
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\BridgeService.dll.config
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\BridgeService.dll
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\BridgeService.pdb
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\Json.dll
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\Newtonsoft.Json.dll
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\Json.pdb
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\Newtonsoft.Json.xml
+C:\Anchu\Hackathon\BridgeService\BridgeService\obj\Release\BridgeService.dll
+C:\Anchu\Hackathon\BridgeService\BridgeService\obj\Release\BridgeService.pdb
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\BouncyCastle.Crypto.dll
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\Common.Logging.Core.dll
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\Nethereum.Portable.dll
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\BouncyCastle.Crypto.xml
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\Common.Logging.Core.pdb
+C:\Anchu\Hackathon\BridgeService\BridgeService\bin\Common.Logging.Core.xml
