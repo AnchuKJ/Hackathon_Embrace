@@ -1,0 +1,57 @@
+.stepper-header {
+		background-color: rgb(77, 182, 172);
+		color: white;
+		padding: 0 5px;
+	}
+.stepper-component-holder {
+	border: 1px solid rgb(77, 182, 172);
+	background-color: white;
+
+	h4 {
+		color: rgb(77, 182, 172);
+		margin: 14px 0;
+	}
+
+	mat-divider {
+		margin-bottom: 10px;
+	}
+}
+.stepper-container {
+	padding: 5px 15px 15px 15px;
+}
+
+.form-full-width {
+    min-width: 150px;
+    max-width: 500px;
+    width:100%;
+}
+
+.input-full-width {
+    width:800px;
+}
+
+.mat-form-field.mat-form-field {
+    width: 400px;
+}
+
+.mat-button {	
+	background-color:  rgb(77, 182, 172) !important;
+	color: white;
+	margin-right:10px;
+}
+
+.fileInput {
+    cursor: pointer;
+   
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:10px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}
+
+.stepper-header{
+	background-color:  rgb(77, 182, 172) !important;
+}

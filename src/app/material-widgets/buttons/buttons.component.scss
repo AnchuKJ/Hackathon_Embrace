@@ -1,0 +1,99 @@
+.stepper-header {
+	background-color: rgb(77, 182, 172);
+	color: white;
+	padding: 0 5px;
+}
+.stepper-component-holder {
+border: 1px solid rgb(77, 182, 172);
+background-color: white;
+
+h4 {
+	color: rgb(77, 182, 172);
+	margin: 14px 0;
+}
+
+mat-divider {
+	margin-bottom: 10px;
+}
+}
+.stepper-container {
+padding: 5px 15px 15px 15px;
+}
+
+
+.CaptionTitle{
+	font-weight: bold;
+ }
+
+.ImageStyle{
+	border-radius: 50%;	
+    width: 230px;
+    height: 230px;
+    margin: auto;
+    margin-left: -20px;
+}
+
+.form-full-width {
+min-width: 150px;
+max-width: 500px;
+width:100%;
+}
+
+.input-full-width {
+width:800px;
+}
+
+.mat-form-field.mat-form-field {
+width: 400px;
+}
+
+.mat-button {
+	background-color:  rgb(77, 182, 172) !important;
+	color: white;
+	margin-right:10px;
+}
+
+.stepper-header{
+	background-color:  rgb(77, 182, 172) !important;
+}
+
+.headerRow{
+	font-weight:bold;
+	background-color: rgb(77, 182, 172);
+	color: white;
+	padding:10px;
+	height: 40px;
+}
+
+.headertable{
+	border: 1px solid rgb(77, 182, 172);
+	margin-bottom: 15px;
+
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.cellRow{
+	height:48px;
+	color: rgba(0, 0, 0, 0.87);
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	align-items: center;
+	padding:10px;
+}
+
+.cellRow:hover{
+	background-color: #e8eaf6;
+}
+
+
+.fileInput {
+    cursor: pointer;
+   
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:10px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}

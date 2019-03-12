@@ -1,0 +1,89 @@
+
+<div fxLayout="column" class="components-container-gt-xs"  [ngClass.xs]="'components-container-xs'"  fxLayoutGap="20px" >
+
+	<div fxFlex class="stepper-component-holder mat-elevation-z4">
+		<mat-toolbar class="stepper-header">
+			<h1 class="mat-headline center-align" >Add Beneficiary</h1>
+		</mat-toolbar>
+		
+		<div class="stepper-container" fxFlex.sm="350">
+			
+			<div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="60px" fxFlex.sm="350">
+				<div fxFlex.xs="100" fxFlex.lg="70" fxFlex.md="70" fxFlex.sm="170" >				
+
+					<mat-horizontal-stepper [linear]="isLinear" fxFlexfill>
+					  <mat-step [stepControl]="firstFormGroup" >
+					    <form [formGroup]="firstFormGroup" >
+								<ng-template matStepLabel >Fill out beneficiary details</ng-template>
+								<div>
+									<mat-form-field>
+										<input matInput placeholder="Last name, First name" formControlName="Name" [(ngModel)] = "currentUser" required>
+									</mat-form-field>
+								 </div>								 
+									<div>											
+										<mat-form-field>
+												<textarea matInput placeholder="Description" formControlName="Description" required rows="3"></textarea>
+											
+										</mat-form-field>
+									</div>
+									<div>											
+										<mat-form-field>
+											<input matInput placeholder="Amount" formControlName="Amount" required>
+										</mat-form-field>
+									</div>
+									<div>																			
+											<mat-form-field>
+												<mat-select placeholder="Purpose Type" formControlName="Purpose" required>
+													<mat-option *ngFor="let PurposeType of PurposeTypeList" [value]="PurposeType.PurposeType">
+													{{PurposeType.PurposeType}}
+													</mat-option>
+												</mat-select>
+											</mat-form-field>
+										</div>									
+					      <div>
+					        <button mat-button matStepperNext>Next</button>
+					      </div>
+					    </form>
+					  </mat-step>
+					  <mat-step [stepControl]="secondFormGroup">
+					    <form [formGroup]="secondFormGroup">
+								<ng-template matStepLabel>Attach details</ng-template>
+								<div>																	
+									<mat-form-field>
+										<input matInput placeholder="Image" formControlName="Image" [(ngModel)]="uploadedImage" >
+										<input class="fileInput" type="file" name="photo" ng2FileSelect [uploader]="uploader2" />												
+									</mat-form-field>
+								</div>
+								<div>																	
+										<mat-form-field>
+											<input matInput placeholder="IdProof" formControlName="IdProof" [(ngModel)]="uploadedIdProof" >
+											<input class="fileInput" type="file" name="photo" ng2FileSelect [uploader]="uploader" />												
+										</mat-form-field>
+									</div>
+								<div>																				
+										<mat-form-field>
+											<input matInput placeholder="Attachments" formControlName="Attachments" [(ngModel)]="uploadedAttachment" >
+											<input class="fileInput" type="file" name="photo" ng2FileSelect [uploader]="uploader1" />												
+										</mat-form-field>
+								</div>
+					      <div>
+					        <button mat-button matStepperPrevious>Back</button>
+					        <button mat-button matStepperNext (click)="AddBeneficiary()">Next</button>
+					      </div>
+					    </form>
+					  </mat-step>
+					  <mat-step>
+						<ng-template matStepLabel>Done</ng-template>
+					    You are now done.<br/>					    
+					  </mat-step>
+					</mat-horizontal-stepper>	           
+
+				</div>
+				
+			</div>
+
+		</div>		
+
+	</div>
+
+</div>
