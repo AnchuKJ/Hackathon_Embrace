@@ -20,7 +20,7 @@ app.controller('loginCtrl', function($scope){
 alert("dd");
   $scope.loginData = null;
   $scope.LoginClick = function()  {
-    alert($scope.loginData.userName);
+    
   }
 });
 
